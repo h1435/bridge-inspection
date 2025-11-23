@@ -1,0 +1,54 @@
+.root {
+  min-height: 100vh;
+}
+
+.sider {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: auto;
+}
+
+.brand {
+  height: 64px;
+  margin: 0;
+  padding: 16px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.header {
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+}
+
+.tenantInfo {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+
+.content {
+  margin: 0;
+  padding: 24px;
+  background: #f5f6f9;
+  min-height: calc(100vh - 64px);
+}
+
+.contentInner {
+  min-height: calc(100vh - 112px);
+}
+

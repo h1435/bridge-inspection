@@ -1,0 +1,23 @@
+.description {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.buttonItem {
+  margin-bottom: 0;
+}
+
+.buttonItem :global(.ant-form-item-control-input) {
+  min-height: auto;
+}
+
+.buttonItem :global(.ant-form-item-control-input-content) {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}

@@ -1,0 +1,38 @@
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.cover {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  height: 160px;
+}
+
+.header {
+  margin-bottom: 12px;
+}
+
+.name {
+  margin: 0;
+}
+
+.route {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+}
+
+.info {
+  width: 100%;
+}
+
+.infoRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+}
+
+.infoRow :global(svg) {
+  color: rgba(0, 0, 0, 0.45);
+}

@@ -1,0 +1,22 @@
+.container {
+  padding: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.headerCard {
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.currentTaskCard {
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border-width: 2px;
+}
+
+.historyTaskCard {
+  margin-bottom: 16px;
+  border-radius: 8px;
+}

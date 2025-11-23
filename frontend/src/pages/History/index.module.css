@@ -1,0 +1,92 @@
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4px;
+}
+
+.videoCard {
+  margin-bottom: 0;
+}
+
+.videoContainer {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.videoPlaceholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e293b, #334155);
+  color: white;
+}
+
+.mapPlaceholder {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e0f2fe, #bae6fd);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.mapPlaceholder img {
+  width: 120px;
+  opacity: 0.3;
+}
+
+.mapMarker {
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.2s;
+}
+
+.mapMarker:hover {
+  transform: scale(1.1);
+}
+
+.markerDot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+}
+
+.markerLabel {
+  margin-top: 4px;
+  padding: 2px 8px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.marker-completed .markerDot {
+  background: #22c55e;
+}
+
+.marker-abnormal .markerDot {
+  background: #f59e0b;
+}
+
+.marker-interrupted .markerDot {
+  background: #ef4444;
+}
+

@@ -1,0 +1,22 @@
+.container {
+  padding: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.headerCard {
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.infoCard {
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.statusCard {
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+

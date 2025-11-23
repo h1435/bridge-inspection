@@ -1,0 +1,40 @@
+.container {
+  padding: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding-bottom: 100px; /* 为底部按钮留出空间 */
+}
+
+.headerCard {
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.infoCard {
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.statusCard {
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.locationCard {
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.actionBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  background: #fff;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
